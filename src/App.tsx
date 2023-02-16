@@ -1,7 +1,21 @@
+import {
+  Empower,
+  Header,
+  Hero,
+  Investing,
+  Offer,
+  Priority,
+} from "./components";
+
 function App() {
   return (
-    <div className="App">
-      <h1 className="font-Satoshi text-2x">Hello</h1>
+    <div className="bg-primary w-full min-h-screen font-Satoshi overflow-hidden">
+      <Header />
+      <Hero />
+      <Investing />
+      <Priority />
+      <Offer />
+      <Empower />
     </div>
   );
 }
