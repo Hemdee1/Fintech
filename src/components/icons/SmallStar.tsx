@@ -1,4 +1,4 @@
-const SamllStar = () => {
+const SmallStar = () => {
   return (
     <svg width="397" height="248" viewBox="0 0 397 248" fill="none">
       <rect width="397" height="248" fill="url(#paint0_linear_89_1409)" />
@@ -28,4 +28,4 @@ const SamllStar = () => {
   );
 };
 
-export default SamllStar;
+export default SmallStar;

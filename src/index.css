@@ -8,6 +8,9 @@
   .btn {
     @apply transition-colors duration-500 text-secondary hover:text-[#BFC1D6] px-8 py-3 rounded-[54px] border border-secondary hover:border-[#BFC1D6] bg-white bg-opacity-5 backdrop:blur-[2px] relative overflow-hidden before:absolute before:-left-10 before:-top-6 before:w-8 before:h-24 before:bg-white before:bg-opacity-20 before:rotate-[30deg] before:animate-moveRightDelay after:absolute after:-left-10 after:-top-6 after:w-4 after:h-24 after:bg-white after:bg-opacity-20 after:rotate-[30deg] after:animate-moveRight;
   }
+  .btn-secondary {
+    @apply transition-colors duration-500 text-secondary hover:text-[#BFC1D6] px-8 py-3 rounded-[54px] border border-secondary hover:border-[#BFC1D6] bg-white bg-opacity-5 backdrop:blur-[2px];
+  }
   .animate {
     @apply transition-all duration-500;
   }

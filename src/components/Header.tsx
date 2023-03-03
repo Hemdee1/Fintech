@@ -10,13 +10,13 @@ const Header = () => {
         <h1 className="text-[#C0C3D8] font-Zendot text-[18px]">Calone</h1>
         <div
           className={`absolute top-[86px] lg:top-0 inset-0 w-full h-screen lg:h-auto lg:w-auto lg:relative flex justify-end ${
-            !toggle ? "invisible" : "visible"
+            !toggle ? "invisible lg:visible" : "visible"
           }`}
         >
           {/* bg-white bg-opacity-[0.2] backdrop-blur-3xl lg:backdrop-blur-none */}
           <nav
-            className={`bg-primary border-l border-secondary lg:border-none lg:bg-transparent w-52 p-8 lg:p-0 lg:w-auto flex-col lg:flex-row h-screen lg:h-auto flex gap-20 text-[#C0C3D8] animate ${
-              toggle ? "translate-x-0" : "translate-x-52"
+            className={`bg-primary bg-opacity-[95%] lg:bg-transparent w-52 p-8 lg:p-0 lg:w-auto flex-col lg:flex-row h-screen lg:h-auto flex gap-20 text-[#C0C3D8] animate ${
+              toggle ? "translate-x-0" : "translate-x-52 lg:translate-x-0"
             }`}
           >
             <div className="flex gap-8 flex-col lg:flex-row items-start lg:items-center">
